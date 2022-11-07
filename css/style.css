@@ -1,0 +1,30 @@
+  body{
+    background-color: #FFE1E1;
+  }
+  h1{
+    color: purple;
+    margin: 0;
+  }
+  h2{
+    color: black;
+    margin: 0;
+  }
+  h3{
+    color: black;
+    margin: 0;
+  }
+  h4{
+    margin: 0;
+  }
+  hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 100%;
+
+  }
+  th, td:not(.special) {
+  padding-right: 100px;
+}
