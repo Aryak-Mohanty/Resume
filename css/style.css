@@ -25,6 +25,7 @@
     width: 100%;
 
   }
-  th, td:not(.special) {
+  th, td {
   padding-right: 100px;
+
 }
