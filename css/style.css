@@ -42,5 +42,5 @@ text-decoration: underline;
 color: blue;
 }
 a:active {
-text-decoration: underline;
+text-decoration: none;
 }
