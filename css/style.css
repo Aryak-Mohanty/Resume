@@ -76,8 +76,3 @@ h1 a {
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
-.single-line {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
