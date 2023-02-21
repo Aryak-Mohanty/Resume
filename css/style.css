@@ -57,15 +57,25 @@ text-decoration: underline;
 h1 a {
   color: purple !important;
 }
-.WebContainer{
-    width: 100%;
-    height: auto;
+/* Styles for tablet screens */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
 }
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-}
+/* Styles for desktop screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 .single-line {
   white-space: nowrap;
   overflow: hidden;
